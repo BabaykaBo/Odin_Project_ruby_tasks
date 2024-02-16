@@ -6,7 +6,6 @@ def substrings(string, dict)
   dict.each_with_object({}) do |word, res|
     match = str.scan(word).length
     res[word] = match if match.positive?
-    res
   end
 end
 
