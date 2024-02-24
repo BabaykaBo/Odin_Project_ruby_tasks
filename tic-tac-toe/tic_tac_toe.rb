@@ -41,7 +41,7 @@ module TicTacToe
     end
   end
 
-  # Class for game management
+  # Class for game building
   class Game
     LINES = [
       [0, 1, 2], [3, 4, 5], [6, 7, 8],
